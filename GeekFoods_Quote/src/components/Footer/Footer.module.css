@@ -1,0 +1,44 @@
+footer{
+   background-color: #f3f4f6;
+}
+
+.footer_container{
+    padding: 5rem 0;
+    max-width: 1280px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logo a svg{
+    color: darkcyan;
+    height: 30px;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    gap:  2rem;
+    
+    li a{
+        color: black;
+    }
+    li a:hover{
+        color: blue;
+      }
+}
+
+.social_links{
+    display: flex;
+    list-style: none;
+    gap:  2rem;
+    
+    li a{
+        color: black;
+    }
+    li a:hover{
+      color: rgba(0,0,0,.7);
+    }
+}
